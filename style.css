@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    /*color: #5f6368;*/
+    text-decoration: none;
+}
+body {
+    font-family: Arial;
+    height: 100vh;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    padding: 15px 10px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    color : rgba(0,0,0,.87);
+    font-size: 13px;
+}
+.navbar li .profile-icon {
+    border-radius: 50%;
+}
+.navbar li .gb_Ue {
+    width: 24px;
+    height: auto;
+}
+.navbar li .gb_Ua {
+    color: #5f6368 !important;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main .search-box {
+    width: 38%;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+.main .search-box figure img {
+    width: 272px;
+    height: auto;
+}
+form {
+    margin-top: 20px;
+}
+form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 22px;
+}
+form .input-box .input-keyboard {
+    background: url("https://www.gstatic.com/inputtools/images/tia.png") no-repeat center;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    padding: 20px;
+}
+form .input-box span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 13px;
+    color: #9aa0a6;
+}
+form .input-box span svg {
+    width: 19px;
+    height: auto;
+}
+form .input-box input {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 43px;
+    outline: 0;
+    border: none;
+}
+.language {
+    margin-top: 25px;
+    color : #4d5156;
+    font-size: 13px;
+}
+form button {
+    font-family: Arial;
+    font-size: 14px;
+    margin: 30px 0 0 10px;
+    padding: 9px 18px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    color: #3c4043 ;
+}
+form button:hover {
+    border: 1px solid #e2e2e3;
+}
+footer {
+    direction: rtl;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+footer .down-menu {
+    width: 100%;
+}
+footer ul {
+    padding: 10px;
+}
+footer ul li a {
+    margin: 0 6px;
+    text-decoration: none;
+    color: #70757a;
+}
+footer .right-menu {
+    float: right;
+}
+footer .left-menu {
+    float: left;
+}
+footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+footer .eleman {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: #70757a;
+}
